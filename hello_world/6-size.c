@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints the size of various types
  *
@@ -6,7 +7,6 @@
  */
 
 int main(void)
-
 {
 	int i;
 	long int li;
