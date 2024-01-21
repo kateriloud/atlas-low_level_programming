@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main ()
-{
-	int n = rand();
+int main (){
+
+	int n = rand() % 200 - 100;
 
 	if (n > 0) {
 		printf("%d is positive\n", n);
