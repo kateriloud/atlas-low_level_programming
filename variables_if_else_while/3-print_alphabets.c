@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - This prints alphabet in lowercase and then uppercase
@@ -19,7 +20,7 @@ while ( i <= 'z' )
 while ( j <= 'Z' )
 {
 	putchar (j);
-	j++
+	j++;
 }
 putchar('\n');
 
