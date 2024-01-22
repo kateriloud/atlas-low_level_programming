@@ -14,7 +14,7 @@ char i = 'a';
 	
 while (i <= 'z');
 {
-	if (i != 'e' && 'q' )
+	if ( i != 'e' && 'q' )
 	{
 	putchar(i);
 	i++;
