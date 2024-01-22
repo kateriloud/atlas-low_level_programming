@@ -3,21 +3,21 @@
 
 /**
  *
- * main - Prints all lowercsae letters except q and e
+ * main - Prints all lowercsae letters a-z except q and e
  *
  * Return: (0)
  *
- **/
+ */
 int main(void)
 {
-	char i = 'a';
-	while (i <= 'z');
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++);
 		{
-		if (i != 'e' && 'q')
+		if (i != 'e' && != 'q')
 		{
 		putchar(i);
 		}
-		i++;
 	}
 	putchar('\n');
 	return (0);
