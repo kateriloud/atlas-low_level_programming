@@ -5,30 +5,29 @@
  *
  * main - Prints message according to number
  *
- * Return: 0 (always success
+ * Return: 0 (always success)
  *
  */
 
 int main(void)
-
 {
-	int n, lastd;
+	int n;
 	n = rand() - RAND_MAX / 2;
-	lastd = n % 10;
+	int x = n % 10
 
-	if (lastd > 5)
+	if ( x > 5 ) 
 	{
-	printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
+		printf("The last digit of %d is %d and is greater than 5\n", n, x);
 	}
-	else if (lastd == 0)
+	else if ( x < 6  && x != 0 )
 	{
-	printf("Last difit of %d is %d and is 0\n", n, lastd);
+		printf("The last digit of %d is %d and is less than 6 and not 0\n", n, x);
 	}
-	else (lastd < 6 & lastd ! = 0);
+	else
+
 	{
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+	printf("The last digit of %d is %d and is 0\n", n, x);
 	}
-	
+
 	return (0);
-
 }
