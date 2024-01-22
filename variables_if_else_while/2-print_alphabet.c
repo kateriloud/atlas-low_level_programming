@@ -3,17 +3,14 @@
 /**
  * main - This prints all lowercase letters 'a-z'
  *
- * Return: always (0)
+ * Return: (0) 
  *
  *
  **/
-int main ()
+int main()
 {
 	int ch;
-	{
-	for(ch >= 'a'; ch <= 'z'; ch++);
-		putchar('ch');
-	}
-	putchar('\n');
+	for(ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	return 0;
 }
