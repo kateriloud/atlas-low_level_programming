@@ -12,7 +12,7 @@ int main(void)
 {
 	char i;
 
-	while (i = 'a'; i <= 'z'; i++);
+	while (i == 'a'; i <= 'z'; i++);
 		{
 		if (i != 'e' && 'q')
 		{
