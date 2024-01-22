@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- *
  * main - Prints all lowercsae letters a-z except q and e
  *
  * Return: (0)
