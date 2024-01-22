@@ -12,8 +12,8 @@
 int main(void)
 {
 	int n;
+	int x = n % 10;
 	n = rand() - RAND_MAX / 2;
-	int x = n % 10
 
 	if ( x > 5 ) 
 	{
