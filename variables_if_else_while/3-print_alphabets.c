@@ -8,20 +8,20 @@
  **/
 int main(void)
 {
-        int i = 'a'
-	int j = 'A'
+int i = 'a';
+int j = 'A';
 
-	while ( i <= 'z')
-	{
-		putchar (i);
-		i++;
-	}
-	while ( j  <= 'z')
-	{
-		putchar (i);
-		i++;
-	}
+while ( i <= 'z' )
+{
+	putchar (i);
+	i++;
+}
+while ( j <= 'Z' )
+{
+	putchar (j);
+	j++
+}
+putchar('\n');
 
-        putchar('\n');
-        return (0);
+return (0);
 }
