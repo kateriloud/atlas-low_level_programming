@@ -1,15 +1,19 @@
 #include <stdio.h>
+
 /**
- *main - This prints all lowercase letters
+ * main - This prints all lowercase letters 'a-z'
  *
- *Return: always (0)
+ * Return: always (0)
  *
  *
  **/
-int main (void)
+int main ()
 {
 	int ch;
-	for(ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	return (0);
+	{
+	for(ch 'a'; ch <= 'z'; \n, ch++);
+		putchar('ch');
+	}
+	putchar('\n');		
+	return 0;
 }
