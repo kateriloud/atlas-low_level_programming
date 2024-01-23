@@ -4,10 +4,9 @@
 /**
  * main - Entry point
  *
- *
  * Description: Print putchar with new line
- *@parameter: printf putchar
- * Return: (0)
+ *
+ * Return: (0) always
  **/
 int main(void)
 
