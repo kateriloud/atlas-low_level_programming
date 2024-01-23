@@ -2,11 +2,10 @@
 #include "main.h"
 
 /*
- * main - Prints message with new line
+ * main - Prints putchar with new line
  *
  * Return: (0)
  */
-
 int main(void)
 
 {
