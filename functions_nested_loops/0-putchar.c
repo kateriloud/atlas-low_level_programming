@@ -6,7 +6,7 @@
  *
  *
  * Description: Print putchar with new line
- *
+ *@parameter: printf putchar
  * Return: (0)
  */
 int main(void)
