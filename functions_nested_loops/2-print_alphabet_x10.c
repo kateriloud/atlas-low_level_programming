@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabet_x10 - print a-z ten times
+ * print_alphabet_x10 - entry point
+ *
+ *Return: (0) always
  **/
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char j;
