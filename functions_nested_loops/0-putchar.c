@@ -2,7 +2,10 @@
 #include "main.h"
 
 /*
- * main - Prints putchar with new line
+ * main - Entry point
+ *
+ *
+ * Description: Print putchar with new line
  *
  * Return: (0)
  */
