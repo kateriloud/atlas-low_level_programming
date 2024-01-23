@@ -2,12 +2,12 @@
 #include "main.h"
 
 /*
- * main - Print "_putchar"
+ * main - Prints message with new line
  *
  * Return: (0)
  */
 
-int main(void)
+int main()
 
 	{
 	printf("_putchar\n");
