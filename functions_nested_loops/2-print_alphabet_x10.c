@@ -9,19 +9,10 @@ void print_alphabet_x10(void)
 	
 {
 int ch;
-int n = 0;
 
 	for(ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
-
-	}
-		while (n < 10)	
-		{
-		printf("%c", ch);
-		ch++;
-		}
-	
-	
+	}	
 		putchar('\n');
 }
