@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * main: entry point
+ * main: printf single digit numbers followed by a new line
  *
  * Description: prints a line of single digits 1 through 9
  * @n: sdfgdsr
