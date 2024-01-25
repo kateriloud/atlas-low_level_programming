@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * main Entry point
- *
- * Description: prints a line of numbers using the printf function.
+ * main - prints a line of numbers 1 to 9 followed by a new line
  *
  * Return: (0)
  */
