@@ -3,7 +3,7 @@
 /*
  * main Entry point
  *
- * Description: prints a line of single digits 1 through 9 using printf
+ * Description: prints a line of single digit numbers using the printf function.
  *
  * Return: (0)
  */
