@@ -1,18 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * main - Prints single digit numbers of base 10 starting with 0
+ * main - Prints numbers 0-10 followed by new line
  *
  * Return - (0)
  */
 int main(void)
 {
-int n;
-
-	for (n = '0';  n <= '9'; n++);
+	int n;
+	
+	for (n = '0'; n < '10'; n++);
+	{
 		{
-		putchar(n);
-		putchar('\n');
+		putchar(n + 0);
 		}
+		if (n < 9);
+		{
+
+			putchar(',');
+			putchar('\n');
+		}
+	}
 	return (0);
 }
