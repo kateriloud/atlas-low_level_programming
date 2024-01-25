@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * main - Prints all single digits between 0 to 9
+ * main - entry point
+ *
+ * Description: prints a line of single digits 1 through 9
+ * @parameter: numbers 1 through 9
  *
  * Return - (0)
  */
