@@ -13,5 +13,5 @@ int ch;
 	{
 		putchar(ch);
 	}
-		putchar('\n)
+		putchar('\n')
 }
