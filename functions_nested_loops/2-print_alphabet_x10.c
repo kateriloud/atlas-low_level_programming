@@ -14,11 +14,14 @@ int n = 0;
 	for(ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
+
+	}
 		while (n < 10)	
 		{
 		printf("%d", n);
 		n++;
 		}
-	}
+	
+	
 		putchar('\n');
 }
