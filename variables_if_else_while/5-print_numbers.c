@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * main: printf single digit numbers followed by a new line
+ * main Entry point
  *
- * Description: prints a line of single digits 1 through 9
- * @n: sdfgdsr
+ * Description: prints a line of single digits 1 through 9 using printf
  *
  * Return: (0)
  */
