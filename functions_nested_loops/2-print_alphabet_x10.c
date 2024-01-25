@@ -18,8 +18,8 @@ int n = 0;
 	}
 		while (n < 10)	
 		{
-		printf("%d", n);
-		n++;
+		printf("%c", ch);
+		ch++;
 		}
 	
 	
