@@ -3,7 +3,9 @@
 
 /**
  * main - prints all possible cominations of single digit numbers
- * Return: (0)
+ *
+ *  Return: (0)
+ *
  */
 
 int main(void)
