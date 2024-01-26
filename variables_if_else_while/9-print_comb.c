@@ -13,16 +13,16 @@ int main(void)
 {
 	int k;
 
-	for (k = 48 ; k < 58; k++)
-
+	for (k = 48; k < 58; k++)
+	{
 		putchar(k);
+		if (k < 57)
 
-	if (k < 57)
-
-	{	putchar(44);
-		putchar(32);
+		{	
+			putchar(44);
+			putchar(32);
+		}
 	}
-
 	putchar('\n');
 	return (0);
 
