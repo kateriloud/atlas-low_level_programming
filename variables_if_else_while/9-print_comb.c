@@ -18,7 +18,7 @@ int main(void)
 		putchar(k);
 		if (k < 57)
 
-		{	
+		{
 			putchar(44);
 			putchar(32);
 		}
