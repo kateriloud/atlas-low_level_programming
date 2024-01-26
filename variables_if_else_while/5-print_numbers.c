@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
  * main - prints a line of numbers 1 to 9 followed by a new line
  *
  * Return: (0)
