@@ -11,11 +11,18 @@
 int main(void)
 
 {
-	num 0;
-		while (num = 0; num <= 9; num++)
+	int k;
+		for (k = '0'; k <= '9'; k++)
 		{
+			putchar(k);
+
+		if (k < 9)	
+			{
 			putchar(" ");
 			putchar(",");
+			}
+		
 		}
-	done
+	putchar("\n");
+	return (0);
 }
