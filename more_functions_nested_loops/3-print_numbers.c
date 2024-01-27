@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - function that prints numbers followed by a new line
- * @n: prints number 0 to 9
+ * description: prints number 0 to 9
  *
  * Return: (0)
  *
