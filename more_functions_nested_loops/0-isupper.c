@@ -13,9 +13,9 @@ int _isupper(int c)
 {
 
 	c= 'C';
-	printf("%c: %d\n", _isupper(c));
+	printf("%c\n", _isupper(c));
 	c = 'c';
-	printf("%c: %d", c, _isupper(c));
+	printf("%c", c, _isupper(c));
 
 	return (0);
 }
