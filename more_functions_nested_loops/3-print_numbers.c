@@ -15,9 +15,7 @@ void print_numbers(void)
 
 	if (n = 0; n > 9; n++) 
 	{
-		_putchar(n);
+		putchar(n);
 	}
-	_putchar('\n');
-
-	return (0);
+	putchar('\n');
 }
