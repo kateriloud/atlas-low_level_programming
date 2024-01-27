@@ -13,7 +13,7 @@ void print_numbers(void)
 {
 	int n;
 
-	if (n = 0; n < 9; n++) 
+	if (n = 48; n < 58; n++) 
 	{
 		putchar(n);
 	}
