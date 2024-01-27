@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - function that checks for lowercase characters
- * @c - character to check
+ * main - program checks for lowercase c
+ * @c: searching for character c in lowercase
  *
  * Return: (0)
  *
