@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * _isupper - checks for uppercase character
@@ -12,10 +11,10 @@
 int _isupper(int c)
 {
 
-	c= 'C';
-	printf("Character: %c, is uppercase: %d\n", c, _isupper(c));
-	c = 'c';
-	printf("Charcter: %c, is not uppercase: %d\n", c, _isupper(c));
+	if ( c >= 65 && c <= 90 )
+	{
+		return (1);
+	}
 
 	return (0);
 }
