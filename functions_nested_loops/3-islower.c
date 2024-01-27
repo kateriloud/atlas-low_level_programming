@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - program checks for lowercase c
+ * _islower - program checks for lowercase c
  * @c: searching for character c in lowercase
  *
  * Return: (0)
