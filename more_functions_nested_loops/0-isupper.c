@@ -13,9 +13,9 @@ int _isupper(int c)
 {
 
 	c= 'C';
-	printf("%c\n", _isupper(c));
+	printf("Character: %c, is uppercase: %d\n", c, _isupper(c));
 	c = 'c';
-	printf("%c", c, _isupper(c));
+	printf("Charcter: %c, is not uppercase: %d\n", c, _isupper(c));
 
 	return (0);
 }
