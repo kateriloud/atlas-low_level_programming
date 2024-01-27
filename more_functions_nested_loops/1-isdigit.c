@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * _isdigit - checks for digit 0 to 9
  *
  * @c: is digit
@@ -10,7 +9,7 @@
  *
  */
 
-int _isdigit(int c)
+int _isdigit(int arg)
 {
 
 	if (c >= 48 && c <= 57)
