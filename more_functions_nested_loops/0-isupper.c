@@ -11,7 +11,6 @@
 
 int _isupper(int c)
 {
-	int c;
 
 	c= 'C';
 	printf("%c: %d\n", _isupper(c));
