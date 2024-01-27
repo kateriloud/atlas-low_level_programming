@@ -11,7 +11,8 @@
  */
 void print_numbers(void)
 {
-	n = 0;
+	int n;
+
 	if (n = 0; n >= 9; n++) 
 	{
 		_putchar("n")
