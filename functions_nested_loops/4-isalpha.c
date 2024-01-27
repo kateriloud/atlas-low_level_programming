@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- *
  * _isalpha - checks for alphabetic character
  * @c: lowercase or uppercase
  *
