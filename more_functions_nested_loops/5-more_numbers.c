@@ -19,7 +19,10 @@ void more_numbers(void)
 		for (v = 0; v < 14; v++)
 		{
 			if ( x >= 10)
-			putchar(v);
+			{
+				putchar((v / 10) + '0');
+			}
+			putchar((v % 10) + '0');
 		}
 		putchar('\n');
 	}
