@@ -17,9 +17,11 @@ void more_numbers(void)
 	for (x = 0; x < 10; x++)
 	{
 		for (v = 0; v < 14; v++)
-		{		if (x > 9)
-				putchar(v / 10 + '0');
-				putchar(v % 10 + '0');
+		{
+			if ( x >= 10);
+			{
+			putchar(v)
+			}
 		}
 		putchar('\n');
 	}
