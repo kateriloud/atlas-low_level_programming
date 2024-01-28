@@ -18,10 +18,8 @@ void more_numbers(void)
 	{
 		for (v = 0; v < 14; v++)
 		{
-			if ( x >= 10);
-			{
+			if ( x >= 10)
 			putchar(v)
-			}
 		}
 		putchar('\n');
 	}
