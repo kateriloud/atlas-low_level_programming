@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * more_numbers - prints numbers followed by new line
  *
  * description: numbers 0 to 14 get printed 10 times
