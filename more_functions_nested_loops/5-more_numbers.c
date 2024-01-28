@@ -11,19 +11,19 @@
  */
 
 void more_numbers(void)
-{
-
-	int x , v;
-	for (x = 0; x < 10; x++)
 	{
-		for (v = 0; v <= 14; v++)
+
+	int a, b;
+	for (a = 0; a < 10; a++)
 		{
-			if ( x >= 10)
+		for (b = 0; b <= 14; b++)
 			{
-				putchar((v / 10) + '0');
+			if (a >= 10)
+				{
+				_putchar((b / 10) + '0');
+				}
+			_putchar((b % 10) + '0');
 			}
-			putchar((v % 10) + '0');
+	_putchar('\n');
 		}
-	putchar('\n');|
-	}
-}
+		}
