@@ -21,7 +21,7 @@ void more_numbers(void)
 		{
 			putchar(v);
 		}
-		if (v != 9)
-		       putchar('\n');	
+			if (x != 9)
+				putchar('\n');	
 		}
 }
