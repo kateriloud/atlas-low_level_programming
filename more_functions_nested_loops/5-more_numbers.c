@@ -13,7 +13,7 @@
 void more_numbers(void)
 {
 
-	int x, v;
+	int x , v;
 	for (x = 0; x < 10; x++)
 	{
 		for (v = 0; v <= 14; v++)
@@ -24,6 +24,6 @@ void more_numbers(void)
 			}
 			putchar((v % 10) + '0');
 		}
-		putchar('\n');
+	putchar('\n');
 	}
 }
