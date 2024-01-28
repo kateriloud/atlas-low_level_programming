@@ -13,11 +13,15 @@
 void more_numbers(void)
 {
 
-	int v;
-
-	for (v = 0; v >=14; v++)
-	{
-		putchar(v);
-	}
-	putchar('\n');
+	int x;
+	for (x = 0; x < 10; x++)
+		{
+		int v;
+		for (v = 0; v >= 14; v++)
+		{
+			putchar(v);
+		}
+		if (v != 9)
+		       putchar('\n');	
+		}
 }
