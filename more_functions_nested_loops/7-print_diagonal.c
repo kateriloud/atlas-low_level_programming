@@ -17,7 +17,7 @@ int  y;
 	putchar('\n')
 	}
 
-	for (x = 1; x <= n, x++)
+	for (x = 1; x <= n; x++)
 	{
 	for (y = 1; y < x; y++)
 		{
