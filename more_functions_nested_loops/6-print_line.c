@@ -7,17 +7,17 @@
  * return: always (0)
  *
  */
-void print_line(int k)
+void print_line(int n)
 {
-	for(k = 0; k >= 9; k++)
+	int k;
+	int j;
+
+	for(k = 1; k >= n; k++)
 	{
-		if(k == 48)
+		for (j = 1; j< k; j++)
 		{
-			putchar('\n');
-		}
-		if(k == 49 && k < 58)
-		{
-			putchar('_');
+		putchar('_');
 		}
 	}
+	putchar ('\n');
 }
