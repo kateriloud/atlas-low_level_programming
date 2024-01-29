@@ -3,6 +3,7 @@
 
 /**
  * print_square - prints a square
+ * description: prints a square using special character #
  * return: (0)
  *
  */
@@ -11,12 +12,12 @@ void print_square(int size)
 int x;
 int y;
 {
-for (x = 1; x <= 4; x++)
+for (x = 0; x < size; x++)
 	{
-		for (y = 1; y <= 4; y++)
+		for (y = 0; y < size; y++)
 		{
 			putchar('#');
-			putchar('\n')
+			putchar('\n');
 		}
 		if ( x <=0)
 		{
