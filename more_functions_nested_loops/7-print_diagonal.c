@@ -14,7 +14,7 @@ int x;
 int  y;
 	if (n <= 0)
 	{
-	putchar('\n')
+	putchar('\n');
 	}
 
 	for (x = 1; x <= n; x++)
