@@ -2,23 +2,25 @@
 #include "main.h"
 
 /**
- * print_line - prints characters
- * description: prints a straight line in place of numbers 
- *
+ * print_line - prints a straight line
+ * @n: number of lines
  * return: always (0)
  *
  */
 void print_line(int n)
 {
 	int k;
-	int j;
 
-	for(k = 1; k <= n; k++)
+	if(n <= 0)
 	{
-		for (j = 1; j < k; j++)
-		{
-		putchar('_');
-		}
+	putchar ('\n')
 	}
-	putchar ('\n');
+	else
+	{
+	for(k = 0; k < n; k++)
+	{
+	putchar(95);
+	}
+	putchar('\n');
+	}
 }
