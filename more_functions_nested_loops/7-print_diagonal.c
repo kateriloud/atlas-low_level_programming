@@ -27,7 +27,7 @@ int  y;
 		{
 		putchar ('\\');
 		}
-		
+
 		{
 		putchar('\n');
 		}
