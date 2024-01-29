@@ -7,8 +7,9 @@
  * return: always (0)
  *
  */
-void print_line(int n);
+void print_line(int n)
 
+int n;
 {
 	for(n = 0; n >= 9; n++)
 	{
