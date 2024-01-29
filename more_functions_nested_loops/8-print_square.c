@@ -9,8 +9,8 @@
  */
 void print_square(int size)
 
-int x;
-int y;
+int x & y
+
 {
 for (x = 0; x < size; x++)
 	{
