@@ -21,15 +21,15 @@ int  y;
 	{
 	for (y = 1; y < x; y++)
 		{
-		putchar(' ')
+		putchar(' ');
 		}
 
 		{
-		putchar ('\\')
+		putchar ('\\');
 		}
 		
 		{
-		putchar('\n')
+		putchar('\n');
 		}
 	}
 }
