@@ -6,7 +6,6 @@
  * return: string length
  *
  */
-
 int _strlen(char *s)
 {
 	int k;
