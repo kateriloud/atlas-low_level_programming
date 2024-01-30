@@ -7,7 +7,6 @@
  * return: (0)
  *
  **/
-int main(int)
 {
 int x
 
@@ -34,5 +33,4 @@ for (x = 1; x <= 100; x++)
 		printf(" ");
 		}
 	}
-return (0);
 }
