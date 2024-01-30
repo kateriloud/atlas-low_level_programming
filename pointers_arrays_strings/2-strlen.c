@@ -2,19 +2,19 @@
 #include <string.h>
 /**
  * _strlen - returns length of a string
- * @s - string integer
- * return: (k)
+ * @s: string integer
+ * return: string length
  *
  */
+
 int _strlen(char *s)
 {
-int k;
+	int k;
 
-k = 0;
-
-	while (s[k] != '\0')
+	k = 0;
+        while (s[k] != '\0')
 	{
-		k++;
+                k++;
 	}
-return (0);
+	return (k);
 }
