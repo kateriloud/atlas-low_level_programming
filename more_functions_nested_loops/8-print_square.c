@@ -3,7 +3,7 @@
 
 /**
  * print_square - prints a square
- * @size: determines size
+ * @size: size reference
  * return: (0)
  *
  */
@@ -16,14 +16,10 @@ for (x = 0; x < size; x++)
 		for (y = 0; y < size; y++)
 		{
 			putchar('#');
-		}
-		{
 			putchar('\n');
 		}
-		if ( x <=0)
-		{
+		if (x <=0)
 		putchar('\n');
-		}
 	}
 	
 }
