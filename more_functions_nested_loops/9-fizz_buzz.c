@@ -15,23 +15,23 @@ for (x = 1; x <= 100; x++)
 	{
 	if ((x % )3 == 0 && (x % 5) == 0)
 		{
-		putchar("FizzBuzz");
-		putchar(" ");
+		printf("FizzBuzz");
+		printf(" ");
 		}
 	else if (x % 3 == 0)
 		{
-		putchar("Fizz");
-		putchar(" ");
+		printf("Fizz");
+		printf(" ");
 		}
 	else if (x % 5 == 0)
 		{
-		putchar("Buzz");
-		putchar(" ");
+		printf("Buzz");
+		printf(" ");
 		}
 	else
 		{
-		putchar(x);
-		putchar(" ");
+		printf(x);
+		printf(" ");
 		}
 	}
 return (0);
