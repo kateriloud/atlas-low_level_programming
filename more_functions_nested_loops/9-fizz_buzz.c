@@ -7,7 +7,7 @@
  * return: (0)
  *
  **/
-int x
+int x;
 
 for (x = 1; x <= 100; x++)
 	{
