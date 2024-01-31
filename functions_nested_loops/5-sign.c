@@ -20,12 +20,12 @@ int print_sign(int n)
 	}
 	while(n > 0)
 	{
-		result = 1;
+		print = 1;
 		putchar('+');
 	}
 	while (n == 0)
 	{
-		result = 0;
+		print = 0;
 		putchar('0');
 	}
 return (0);
