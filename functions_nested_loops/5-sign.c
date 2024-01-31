@@ -5,27 +5,27 @@
  * print_sign - prints whether a number is positive, negative, or zero
  * @n: number
  *
- * Return (0)
+ * Return (-1, 0, 1)
  *
  **/
 
 int print_sign(int n)
 {
-	int print;
+	int value;
 	
 	while(n < 0)
 	{
-		print = -1;
+		value = -1;
 		putchar('-');
 	}
 	while(n > 0)
 	{
-		print = 1;
+		value = 1;
 		putchar('+');
 	}
 	while (n == 0)
 	{
-		print = 0;
+		value = 0;
 		putchar('0');
 	}
 return (0);
