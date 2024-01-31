@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * print_sign - prints the sign of a number
- * @n: prints negative zero or positive
+ * print_sign - prints whether a number is positive, negative, or zero
+ * @n: number
  *
  * Return (0)
  *
@@ -11,12 +11,17 @@
 
 int print_sign(int n)
 {
-	if (n = 0)
-		{
-		printf("0\n")
-		return 0;
-		}
-	elif
-
-
+	if(n = 0);
+	{
+		putchar('0');
+	}
+	if(n < 0)
+	{
+		putchar('1');
+	}
+	else
+	{
+	putchar('-1');
+	}
+return (0);
 }
