@@ -11,22 +11,22 @@
 
 int print_sign(int n)
 {
-	int value;
+	int result;
 	
-	while(n < 0)
+	if (n < 0)
 	{
-		value = -1;
+		result = -1;
 		putchar('-');
 	}
 	while(n > 0)
 	{
-		value = 1;
+		result = 1;
 		putchar('+');
 	}
 	while (n == 0)
 	{
-		value = 0;
+		result = 0;
 		putchar('0');
 	}
-return (0);
+return (result);
 }
