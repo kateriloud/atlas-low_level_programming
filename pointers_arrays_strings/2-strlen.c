@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * _strlen - returns length of a string as value
- *
+ * description - calculates length of a string by counting number of characters until NULL
  * @s: int
  *
  * return: string length
