@@ -5,3 +5,15 @@
  * @str: character
  *
  * return: (0)
+ *
+ */
+void _puts(char *str)
+{
+	char str;
+
+	while(*str != '\0')
+	{
+		putchar(*str++);
+	}
+		putchar('\n');
+}
