@@ -18,12 +18,12 @@ char *_strncat(char *dest, char *src, int n)
 		dest++;
 		x++;
 	}
-	while (*src)
+	while (*src && n > 0)
 	{
 		*dest = *src;
 		dest++;
 		x++;
-		n++;
+		n--;
 		src++;
 	}
 
