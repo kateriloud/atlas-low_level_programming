@@ -6,7 +6,7 @@
  * return: (0)
  *
  */
-int abs(int)
+int abs(int  x)
 {
 	int x;
 	if (x > 1)
