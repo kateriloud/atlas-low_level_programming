@@ -8,7 +8,7 @@
  * @src: source
  * @n: integer
  *
- * return: (0)
+ * return: (char)
  */
 char *_strncpy(char *dest, char *src, int n)
 {
