@@ -13,7 +13,7 @@ int _abs(int x)
 	else
 	{
 		(x = -1);
-		return (x);
+		return ("%d", x);
 	}
 
 }
