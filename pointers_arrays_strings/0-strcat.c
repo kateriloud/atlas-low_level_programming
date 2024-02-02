@@ -2,9 +2,9 @@
 #include "string.h"
 
 /**
- * *_strcat - concatenates two strings dest and src
- * @*dest : string destination
- * @*src : string source
+ * *_strcat - concatenates strings *dest and *src
+ * @*dest : estination
+ * @*src : source
  *
  * return: (0)
  *
