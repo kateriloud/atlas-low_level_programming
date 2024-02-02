@@ -2,9 +2,8 @@
 #include "main.h"
 /**
  * _abs(int) - computes absolute value of integer
- *
+ * @int: integer
  * return: (0)
- *
  */
 int abs(int  x)
 {
@@ -12,8 +11,7 @@ int abs(int  x)
 		return (x);
 	else
 	{
-		x = -1;
+		(x = -1)
 		return (x);
 	}
-return (0);
 }
