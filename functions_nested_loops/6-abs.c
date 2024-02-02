@@ -6,9 +6,8 @@
  * return: absolute value
  *
  */
-int abs(int)
+int abs(int x)
 {
-int x;
 	if (x > 1)
 		return (x);
 	else
