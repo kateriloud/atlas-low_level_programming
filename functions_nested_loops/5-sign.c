@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdio.h>i
 #include "main.h"
 
 /**
- * print_sign - prints positive, negative, or zero 
+ * print_sign(int n) - prints positive, negative, or zero 
  * @n: number
  *
  * Return: (-1, 0, 1)
