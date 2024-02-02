@@ -6,8 +6,10 @@
  * return: (0)
  *
  */
-int _abs(int x)
+int _abs(int)
 {
+	int x;
+
 	if (x > 1)
 		return (x);
 	else
