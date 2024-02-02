@@ -2,31 +2,31 @@
 #include "main.h"
 
 /**
- * print_sign - prints whether a number is positive, negative, or zero
+ * print_sign - prints positive, negative, or zero 
  * @n: number
  *
- * Return (-1, 0, 1)
+ * Return: (-1, 0, 1)
  *
  **/
 
 int print_sign(int n)
 {
-	int result;
+	int value;
 	
 	if (n < 0)
 	{
-		result = -1;
+		value = -1;
 		putchar('-');
 	}
-	while(n > 0)
+	else if (n > 0)
 	{
-		result = 1;
+		value = 1;
 		putchar('+');
 	}
-	while (n == 0)
+	else
 	{
-		result = 0;
+		value = 0;
 		putchar('0');
 	}
-return (result);
+return (value);
 }
