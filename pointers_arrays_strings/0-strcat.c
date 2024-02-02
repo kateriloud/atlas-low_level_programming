@@ -11,12 +11,12 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int x = 0, int y = 0
+	int x = 0, y = 0;
 	
 	while (*dest)
 	{
-	dest++;
-	x++
+		dest++;
+		x++;
 	}
 
 	while (*src)
@@ -27,7 +27,9 @@ char *_strcat(char *dest, char *src)
 		y++;
 		src++;
 	}
+
 	*dest = '\0';
-	dest = (dest - a)
+	dest = (dest - x);
+
 return (dest);
 }
