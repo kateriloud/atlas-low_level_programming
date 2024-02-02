@@ -3,8 +3,8 @@
 
 /**
  * *_strcat - concatenates two strings dest and src
- * @*dest: string that is the destination
- * @*src: string that is the source
+ * @*dest : string that is the destination
+ * @*src : string that is the source
  *
  * return: (0)
  *
