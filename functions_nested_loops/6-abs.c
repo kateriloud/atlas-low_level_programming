@@ -3,10 +3,10 @@
 /**
  * _abs(int) - computes absolute value of integer
  *
- * return: absolute value
+ * return: (0)
  *
  */
-int abs(int x)
+int _abs(int x)
 {
 	if (x > 1)
 		return (x);
