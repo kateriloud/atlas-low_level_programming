@@ -2,11 +2,11 @@
 #include "string.h"
 
 /**
- * *_strcat - concatenates strings *dest and *src
- * @*dest : estination
- * @*src : source
+ * _strcat - concatenates strings *dest and *src
+ * @dest : destination
+ * @src : source
  *
- * return: (0)
+ * Return: (dest)
  *
  */
 char *_strcat(char *dest, char *src)
