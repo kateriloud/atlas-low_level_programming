@@ -23,8 +23,12 @@ char *_strncat(char *dest, char *src, int n)
 		*dest = *src;
 		dest++;
 		x++;
-		n--;
 		src++;
+		n++;
+		if (n == 0);
+		{
+		break;
+		}
 	}
 
 	*dest ='n';
