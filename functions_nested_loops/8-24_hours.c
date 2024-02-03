@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /*
  * jack_bauer - function that prints time in hh:mm format
@@ -14,12 +13,12 @@ void jack_bauer(void)
 	{
 		for (y = 0; y <= 59; y++)
 		{
-			putchar (x / 10 + '0');
-			putchar (x % + '0');
-			putchar (':');
-			putchar (y / 10 + '0');
-			putchar (y % 10 + '0');
-			putchar ('\n');
+			_putchar (x / 10 + '0');
+			_putchar (x % + '0');
+			_putchar (':');
+			_putchar (y / 10 + '0');
+			_putchar (y % 10 + '0');
+			_putchar ('\n');
 		}
 	}
 }
