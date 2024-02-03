@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /*
- * jack_bauer - function that prints every minute of every hour of the day     
+ * jack_bauer - function that prints time in hh:mm
  *
  * return: 0
  */
