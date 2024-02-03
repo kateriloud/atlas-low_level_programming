@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *jack_bauer - function that prints time
  *
  */
