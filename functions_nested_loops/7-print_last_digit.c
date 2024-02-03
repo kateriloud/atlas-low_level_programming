@@ -17,5 +17,6 @@ int last;
 	n *= -1;
 	}
 		putchar(n);
-		return(last);
+
+		return(n);
 }
