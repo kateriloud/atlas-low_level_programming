@@ -26,5 +26,5 @@ int y;
 		putchar(':');
 		putchar('\n');
 	}
-return: (0);
+return: (void);
 }
