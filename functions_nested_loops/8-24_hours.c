@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /*
- * jack_bauer - function that prints time in hh:mm
+ * jack_bauer - function that prints time in hh:mm format
  *
  * return: 0
  */
 void jack_bauer(void)
 {
-int x, y;
+	int x, y;
 
 	for (x = 0; x <= 23; x++)
-		{
+	{
 		for (y = 0; y <= 59; y++)
 			{
 			putchar(x / 10 + '0');
@@ -20,6 +20,6 @@ int x, y;
 			putchar(y % 10 + '0');
 			putchar('\n');
 			}
-		}
+	}
 }
 
