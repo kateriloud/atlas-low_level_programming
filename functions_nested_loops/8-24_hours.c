@@ -2,7 +2,6 @@
 /*
  * jack_bauer - function that prints time in hh:mm format
  *
- * return: 0
  */
 
 void jack_bauer(void)
