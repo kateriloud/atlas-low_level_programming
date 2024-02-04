@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_abs- computes absolute value of integer
- *@x: integer
+ *_abs - computes absolute value of integer
+ *@x: integer to find absolute
  *description: function computes the absolute value of an integer
  *return: 0 (always success)
  */
