@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * 
+ *
  * description: this program prints a string using puts function
  *
  * @void: no parameters
