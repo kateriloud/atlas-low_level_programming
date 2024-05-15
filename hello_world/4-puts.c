@@ -6,7 +6,7 @@
  *
  * @void: no parameters
  *
- * return: 0
+ * return: 0 always success
  */
 int main(void)
 {
