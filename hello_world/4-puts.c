@@ -4,7 +4,7 @@
  *
  * description: this program prints a string using puts function
  *
- * @void: no parameters
+ * @: no parameters
  *
  * return: (0 always success)
  */
