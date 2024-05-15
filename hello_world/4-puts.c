@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - void
  *
  * description: this program prints a string using puts function
  *
@@ -8,7 +8,7 @@
  *
  * return: 0 always success
  */
-int main(0)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
