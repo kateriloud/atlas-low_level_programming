@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - entry point
+ * Main - void
  *
- * Description: program that prints sizeof various data types
+ * Description: Program that prints sizeof various data types
  *
  * @: no parameters
  *
