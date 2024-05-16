@@ -2,7 +2,7 @@
 /**
  * main - void
  *
- * description: this program prints a string using puts function
+ * description: this program prints a string using puts
  *
  * @: no parameters
  *
