@@ -1,11 +1,17 @@
 #include <stdio.h>
 /**
+ * 
+ * main - void
  *
+ * description: this program prints a specific string
  *
+ * @: no parameter
  *
- * return: 0 success
+ * Return: Always success (0)
+ *
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,")
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return(0);
 }
