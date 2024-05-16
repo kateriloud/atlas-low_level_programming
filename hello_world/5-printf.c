@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - void
  *
  * description: this program prints a specific string
