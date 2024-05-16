@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - void
+ * main - void
  *
  * Description: Program that prints sizeof various data types
  *
