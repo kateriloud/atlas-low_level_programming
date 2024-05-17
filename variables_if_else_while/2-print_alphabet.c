@@ -14,5 +14,9 @@
 
 int main(void)
 {
-	putchar( )
+	if ( char x = 'a'; x <= 'z', x++ )
+	{
+		putchar( x );
+	}
+	return (0);
 }
