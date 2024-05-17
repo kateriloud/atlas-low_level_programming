@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- *
  * main - void
  *
  * Description: program that prints _putchar with new line
