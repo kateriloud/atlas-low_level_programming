@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  *
@@ -9,13 +9,11 @@
  *
  * @: no parameters
  *
- *
  * Return: Always 0 (Success)
  */
 
 int main(void)
-{
-	
+{	
 	putchar('_');
 	putchar('p');
 	putchar('u');
