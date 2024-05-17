@@ -15,22 +15,25 @@
 int main(void)
 {
 	int n;
-	char x[] = "Last digit of";
+	char x[] = "Last digit of ";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 5)
-		printf("%s," x);
-		printf("%d,", n);
-		printf("is %d and is greater than 5\n", n);
-
+	{
+		printf("%s", x);
+		printf("%d is %d and is greater than 5\n", n, n%10);
+	}
 	else if (n < 6 && !0)
+	{
 		printf("%s", x);
-		printf("%d is %d and is less than 6 and not 0\n", n);
+		printf("%d is %d and is less than 6 and not 0\n", n, n%10);
+	}
 	else
+	{
 		printf("%s", x);
-		printf("%d is %d and is 0\n", n);
-
+		printf("%d is %d and is 0\n", n, n%10);
+	}
 	return (0);
 }
