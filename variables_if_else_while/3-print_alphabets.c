@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- *
  * main - void
  *
  * Description: prints alphabet lower and uppercase using putchar
