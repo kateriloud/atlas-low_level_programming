@@ -23,13 +23,14 @@ int main(void)
 	if (n > 5)
 		printf("%s," x);
 		printf("%d,", n);
-		printf("is %d and is greater than 5 \n", n);
+		printf("is %d and is greater than 5\n", n);
+
 	else if (n < 6 && !0)
 		printf("%s", x);
-		printf("%d" is %d and is less than 6 and not 0 \n", n);
+		printf("%d is %d and is less than 6 and not 0\n", n);
 	else
 		printf("%s", x);
-		printf("%d is %d and is 0 \n", n);
+		printf("%d is %d and is 0\n", n);
 
 	return (0);
 }
