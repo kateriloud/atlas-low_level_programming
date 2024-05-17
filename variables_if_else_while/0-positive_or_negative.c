@@ -4,7 +4,7 @@
 /**
  * main - void
  *
- * Description: program assigns random num to variable n and states if pos or neg
+ * Description: program assigns random num to var n and states if pos or neg
  *
  * @: no parameters
  *
