@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
+ *
  * main - void
  *
- * Description: prints alphabet in lowercase using putchar only
+ * Description: prints alphabet lower and uppercase using putchar
  *
  * @: no parameters
  *
@@ -14,12 +15,7 @@
 
 int main(void)
 {
-	char alpha = 'a';
-	while ( alpha <= 'z' )
-	{
-		putchar(alpha);
-		alpha++;
-	}
+	
 	putchar('\n');
 	return (0);
 }
