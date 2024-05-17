@@ -5,7 +5,7 @@
  *
  * main - void
  *
- * Description: program that prints _putchar with new line 
+ * Description: program that prints _putchar with new line
  *
  * @: no parameters
  *
