@@ -10,5 +10,9 @@
 
 int _isalpha(int c)
 {
-	
+	if (isalpha(c) == 0)
+	{
+		_putchar(c);
+	}
+	return 0;
 }
