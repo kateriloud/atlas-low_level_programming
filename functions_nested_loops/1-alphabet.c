@@ -12,10 +12,13 @@
 
 void print_alphabet(void)
 {
-	int x;
-	while (x >= 97 && x <= 122)
-	{	_putchar(x);
+	int x = 97;
+
+	while (x <= 122)
+	{
+		_putchar('0' + x);
+		x++;
 	}
 	_putchar(x);
-	return (0);
+	return;
 }
