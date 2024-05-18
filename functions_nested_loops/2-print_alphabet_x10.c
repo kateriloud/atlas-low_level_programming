@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * Main - void
@@ -10,12 +11,15 @@
  * Return: Always success (0)
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
+
 {
-	for (int x = 0; x < 9; x++)
+	for ( int x = 0; x < 9; x++ )
 	{
-		for (int y = 97; y < 122; y++)
+		for ( int y = 97; y < 122; y++ )
+		{
 		_putchar(%c,y);
+		}
 	}
 		_putchar('\n');
 		return;
