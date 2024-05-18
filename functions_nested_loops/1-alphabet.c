@@ -16,7 +16,7 @@ void print_alphabet(void)
 
 	while (x <= 122)
 	{
-		_putchar('0' + x);
+		_putchar(x);
 		x++;
 	}
 	_putchar(x);
