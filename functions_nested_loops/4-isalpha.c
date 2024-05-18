@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include "ctype.h"
+#include <ctype.h>
 
 /**
  * main - entry point
