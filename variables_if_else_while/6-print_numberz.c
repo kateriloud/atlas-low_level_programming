@@ -5,7 +5,7 @@
 /**
  * main - void
  *
- * Description: prints all single digit numbers 0-9
+ * Description: prints all single digit numbers 0-9 with putchar
  *
  * @: no parameters
  *
@@ -14,13 +14,6 @@
 
 int main(void)
 {
-	int i = 0;
 
-	while (i < 9)
-	{
-		printf("%d", i);
-		i++;
-	}
-	printf("\n");
-	return (0);
+
 }
