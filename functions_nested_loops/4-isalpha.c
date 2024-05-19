@@ -10,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if (isalpha(c) == 0)
+	if (isalpha(c) != 0)
 	{
 		_putchar(c);
 	}
