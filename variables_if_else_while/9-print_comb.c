@@ -3,7 +3,7 @@
 
 /**
  * main - entry point
- * Description: prints all single digits with , and space
+ * Description: prints all single digits with , and space following
  * Return: Always 0 (Success)
  */
 
@@ -17,6 +17,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
+	
 	ch++;
 
 	putchar('\n');
