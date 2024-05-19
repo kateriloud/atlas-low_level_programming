@@ -10,13 +10,14 @@
 int _islower(int c)
 {
 
-	if (islower(c) > 0)
+	int c;
+
+	if (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar('1');
+		return (1);
 	}
-	else
-	{
-		_putchar('0');
-	}
-	return 0;
+		else
+		{
+			return (0);
+		}
 }
