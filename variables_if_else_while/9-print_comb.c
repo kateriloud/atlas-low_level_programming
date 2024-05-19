@@ -14,10 +14,13 @@ int main(void)
 	while (ch < 10)
 	{
 		putchar('0' + ch);
-		putchar(',');
-		putchar(' ');
+		if (ch < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		ch++;
 	}
-	ch++;
 
 	putchar('\n');
 	return (0);
