@@ -18,9 +18,9 @@ int main(void)
 
 	while (x <= 57)
 	{
-		putchar('x');
+		printf("%d", x);
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
