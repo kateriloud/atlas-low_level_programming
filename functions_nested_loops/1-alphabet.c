@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet - entry point
  *
- * Description: prototype print_alphabet prints lowercase alphabet
+ * Description: prints lowercase alphabet
  *
  * @: no parameters
  *
