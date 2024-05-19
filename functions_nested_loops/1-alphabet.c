@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: prints the alphabet in lowercase
+ * Description: prototype print_alphabet prints lowercase alphabet
  *
  * @: no parameters
  *
