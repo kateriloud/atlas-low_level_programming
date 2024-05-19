@@ -14,13 +14,13 @@
 
 int main(void)
 {
-	int x = 48;
+	int number = 48;
 
-	while (x <= 57)
+	while (number <= 56)
 	{
-		printf("%d", x);
+		printf("%d");
+		number++;
 	}
 	printf("\n");
-
 	return (0);
 }
