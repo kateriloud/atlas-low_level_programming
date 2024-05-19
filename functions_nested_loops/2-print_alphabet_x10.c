@@ -14,8 +14,16 @@
 void print_alphabet_x10(void)
 
 {
-	int x = 0;
-	
+	int x = 97, y = 1;
 	while
+	{
+	while (x < 122)
+	{
+		_putchar(x);
+		x++;
+	}
+	}
+	_putchar('\n');
 
+	return;
 }
