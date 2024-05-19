@@ -8,25 +8,23 @@
  *
  * @: no parameters
  *
- * Return: Always success (0)
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet_x10(void)
 
 {
-	int x = 97, y = 0;
+	int i;
 
-	while (y < 10)
+	for ( i = 0; i < 9; i++)
 	{
-		y++;
+		char ch;
 
-	while (x <= 122)
-	{
-		_putchar(x);
-		x++;
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			_putchar(ch);
+		}
+		_putchar('\n');
 	}
-	}
-	_putchar('\n');
-
-	return;
+		return;
 }
