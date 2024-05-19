@@ -16,12 +16,11 @@ int main(void)
 {
 	int x = 48;
 
-	while (x < 58)
+	while(x < 58)
 	{
-		putchar(x);
+		printf("%d",x);
 	}
 	x++;
-	putchar('\n');
 
 	return (0);
 }
