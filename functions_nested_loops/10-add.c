@@ -6,7 +6,7 @@
 /**
  * add - entry point
  * Description: function that adds two ints and returns result
- * @int: x, y
+ * @x, y: int
  * Return: Always 0 (success)
  */
 
