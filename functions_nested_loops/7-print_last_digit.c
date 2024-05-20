@@ -5,13 +5,12 @@
 /**
  * print_last_digit - entry point
  * Description: prints the last digit of a number
- * @: int
+ * @x: int
  * Return: Always 0 (Success)
  */
 
-int print_last_digit(int)
+int print_last_digit(int x)
 {
-	int x = 0;
 	
 	x %= 10;
 
