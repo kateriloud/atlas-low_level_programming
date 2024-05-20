@@ -4,12 +4,27 @@
 
 /**
  * print_sign - entry point
- * Description: function that prints the sign of a number
+ * Description: prints the sign of a number with return of 1 -1 or 0
+ * @n: int
  * Return: Always 0 (Success)
  */
 
 int print_sign(int n)
 {
+        if (n > 0)
+        {
+		_putchar('+');
+                return (1);
+        }
+        else if (n < 0)
+        {
+		_putchar('-');
+                return (-1);
+        }
+        else
+        {
+                return (0);
+        }
 
-
+        return (0);
 }
