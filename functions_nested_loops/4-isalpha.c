@@ -4,7 +4,8 @@
 
 /**
  * _isalpha - entry point
- * Description: program that searches and prints 1 for upper/lowercase
+ * Description: program that find and prints 1 for upper/lowercase letter
+ * @c: int
  * Return: Always 0 (Success)
  */
 
