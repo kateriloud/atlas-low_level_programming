@@ -6,15 +6,12 @@
 /**
  * add - entry point
  * Description: function that adds two ints and returns result
- * @: int
+ * @x, @y: int
  * Return: Always 0 (success)
  */
 
-int add(int, int)
-{
-	int x,y;
-	
-	result = x + y
+int add(int x, int y)
 
-	return(result)
+{
+	return x + y;
 }
