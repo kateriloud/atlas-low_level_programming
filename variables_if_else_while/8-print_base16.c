@@ -14,13 +14,15 @@
 
 int main(void)
 {
-	int c;
+	int x, y;
 
-	c = 0;
-	while (c < 15)
+	for (x = 48; x <= 57; x++)
 	{
-		putchar("%x", c);
-		c++;
+		putchar('0' + x);
+	}
+	for (y = 97; y <= 102; y++)
+	{
+		putchar('0' + y);
 	}
 	
 	putchar('\n');
