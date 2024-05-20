@@ -6,14 +6,12 @@
 /**
  * _abs - entry point
  * Description: function that computes absolute value
- * @: int
+ * @x: int
  * Return: Always 0 (Success)
  */
 
-int _abs(int)
+int _abs(int x)
 {
-	int x = 0;
-
 	while ((x > 0) - (x < 0))
 	{
 		putchar(x);
