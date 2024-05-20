@@ -2,7 +2,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * main - entry point
+ * _islower - entry point
  * Description: program that checks for lowercase character
  * @c: int
  * Return: Always 0 (Success)
