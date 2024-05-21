@@ -12,17 +12,18 @@
 
 void times_table(void)
 {
-	int row;
-	int col;
+	int r;
+	int c;
 
-	for (row = 0; row <= 9; row++)
+	for (r = 0; r <= 9; r++)
 	{
-	for (col = 0; col <= 9; col++ )
+	for (c = 0; c <= 9; c++)
 		{
-		putchar(',');
-		putchar(' ');
-		putchar(' ');
+		putchar('r*c');
 		}
+	putchar(',');
+	putchar(' ');
+	putchar(' ');
 	}
 	putchar('\n');
 	return;
