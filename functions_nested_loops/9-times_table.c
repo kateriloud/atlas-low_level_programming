@@ -21,7 +21,6 @@ void times_table(void)
 		{
 		_putchar(r);
 		}
-	_putchar(c);
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
