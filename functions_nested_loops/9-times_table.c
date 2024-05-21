@@ -16,7 +16,7 @@ void times_table(void)
 
 	for (num = 0; num <= 9; num++)
 	{
- 
+
 		for (digit = 0; digit <= 9; digit++)
 		{
 			result = num * digit;
@@ -25,7 +25,7 @@ void times_table(void)
 			{
 				_putchar(result + '0');
 			}
-			else 
+			else
 			{
 				_putchar(',');
 				_putchar(' ');
