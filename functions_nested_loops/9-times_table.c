@@ -15,11 +15,11 @@ void times_table(void)
 	int row;
 	int col;
 
-	for (row = 0; row <= 9; row++)
+	for (col = 0; col <= 9; col++)
 	{
-	for (col = 0; col <= 9; col++ )
+	for (row = 0; row <= 9; row++ )
 		{
-		putchar('row * col');
+		(row * col);
 		putchar(',');
 		putchar(' ');
 		}
