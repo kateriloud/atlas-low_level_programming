@@ -19,13 +19,13 @@ void times_table(void)
 	{
 	for (c = 0; c <= 9; c++)
 		{
-		putchar(r);
+		_putchar(r);
 		}
-	putchar(c);
-	putchar(',');
-	putchar(' ');
-	putchar(' ');
+	_putchar(c);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
 	}
-	putchar('\n');
+	_putchar('\n');
 	return;
 }
