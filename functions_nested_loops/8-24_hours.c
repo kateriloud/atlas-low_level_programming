@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-#include <math.h>
+#include <time.h>
 #include "main.h"
 
 /**
@@ -12,7 +12,5 @@
 
 void jack_bauer(void)
 {
-
-
 
 }
