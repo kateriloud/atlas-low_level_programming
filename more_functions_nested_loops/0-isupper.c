@@ -4,15 +4,15 @@
 
 int _isupper(int c)
 {
-	if (c = 65; c <= 90; c++)
+	if (c >= 65 && c<= 90)
 	{
-		_putchar(c);
-		return (1);
+		return(1);
 	}
 
-	if (c = 97; c <= 122; c++)
+	else if (c >= 97 && c <= 122)
 	{
-		_putchar(c);
 		return(0);
 	}
+
+	return(0);
 }
