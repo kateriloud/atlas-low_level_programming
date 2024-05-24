@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - entry point
  * Description: takes a pointer to an int and updates value pointed to 98
- * @*n: int type pointer
+ * @n: int
  * Return: Always 0 (success)
  */
 
