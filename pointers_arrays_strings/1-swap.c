@@ -6,8 +6,8 @@
 /**
  * swap_int - entry point
  * Description: function that swaps two integers using pointers
- * @*a: int
- * @*b: int
+ * @a: int
+ * @b: int
  * Return: Always 0 (success)
  */
 
