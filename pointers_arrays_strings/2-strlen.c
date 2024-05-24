@@ -6,7 +6,7 @@
 /**
  * _strlen - entry point
  * Description: function that counts string length
- * @*s: char
+ * @s: char
  * Return: Always 0 (success)
  */
 
