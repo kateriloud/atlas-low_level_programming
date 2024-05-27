@@ -4,7 +4,7 @@
 /**
  * print_rev - entry point
  * Description: prints a string in reverse
- * @*s: char
+ * @s: char
  * Return: Always 0 (success)
  */
 
